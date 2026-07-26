@@ -1,15 +1,20 @@
 {
-    "name": "Steven-Zhl-Use-Claude",
-    "owner": {
-        "name": "Steven-Zhl",
-        "email": "Steven-Zhl@outlook.com"
-    },
-    "plugins": [
-        {
-            "name": "biz-requirements",
-            "source": "./plugins/biz-requirements",
-            "description": "专用于完善需求，形成需求文档的插件",
-            "version": "1.0.0"
-        }
-    ]
+  "name": "Steven-Zhl/use-skills",
+  "owner": {
+    "name": "Steven-Zhl",
+    "email": "Steven-Zhl@outlook.com"
+  },
+  "metadata": {
+    "description": "Some of my ideas",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "find-information",
+      "description": "非工作场景下无明确目的地浏览 AI Agent、大模型、前端开发、国际局势领域的新闻与知识，提供消息源和输出规范指导；其他场景无需使用。",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    }
+  ]
 }
