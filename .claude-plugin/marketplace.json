@@ -1,12 +1,12 @@
 {
-  "name": "Steven-Zhl@use-skills",
+  "name": "use-skills",
   "owner": {
     "name": "Steven-Zhl",
     "email": "Steven-Zhl@outlook.com"
   },
   "metadata": {
     "description": "Some of my ideas",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -14,7 +14,14 @@
       "description": "非工作场景下无明确目的地浏览 AI Agent、大模型、前端开发、国际局势领域的新闻与知识，提供消息源和输出规范指导；其他场景无需使用。",
       "source": "./",
       "strict": false,
-      "skills": []
+      "skills": ["./find-information"]
+    },
+    {
+      "name": "as-doctor",
+      "description": "回复用户关于疾病、症状的信息；像医生一样采集症状信息、检索权威资料作答，提供分诊与就医建议。",
+      "source": "./",
+      "strict": false,
+      "skills": ["./as-doctor"]
     }
   ]
 }
