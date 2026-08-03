@@ -4,24 +4,20 @@
     "name": "Steven-Zhl",
     "email": "Steven-Zhl@outlook.com"
   },
-  "metadata": {
-    "description": "Some of my ideas",
-    "version": "1.0.1"
-  },
+  "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）与 find-information（信息浏览）。",
   "plugins": [
     {
-      "name": "find-information",
-      "description": "非工作场景下无明确目的地浏览 AI Agent、大模型、前端开发、国际局势领域的新闻与知识，提供消息源和输出规范指导；其他场景无需使用。",
+      "name": "use-skills",
       "source": "./",
-      "strict": false,
-      "skills": ["./find-information"]
-    },
-    {
-      "name": "as-doctor",
-      "description": "回复用户关于疾病、症状的信息；像医生一样采集症状信息、检索权威资料作答，提供分诊与就医建议。",
-      "source": "./",
-      "strict": false,
-      "skills": ["./as-doctor"]
+      "description": "as-doctor（疾病问诊）与 find-information（信息浏览）两个 skills。",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "as-doctor",
+        "find-information",
+        "health",
+        "information"
+      ]
     }
   ]
 }
