@@ -1,6 +1,6 @@
 {
   "name": "use-skills",
-  "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）与 find-information（信息浏览）。",
+  "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）、find-information（信息浏览）与 weekly-report（Git 变更转工作周报）。",
   "author": {
     "name": "Steven-Zhl",
     "email": "Steven-Zhl@outlook.com"
@@ -11,10 +11,12 @@
   "keywords": [
     "skills",
     "as-doctor",
-    "find-information"
+    "find-information",
+    "weekly-report"
   ],
   "skills": [
     "./skills/as-doctor",
-    "./skills/find-information"
+    "./skills/find-information",
+    "./skills/weekly-report"
   ]
 }
