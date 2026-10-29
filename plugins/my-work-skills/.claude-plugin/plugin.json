@@ -1,0 +1,19 @@
+{
+  "name": "my-work-skills",
+  "description": "我的工作用 Claude Code skills：weekly-report（Git 变更转工作周报）， system-to-skill（内部系统转skill）",
+  "version": "1.0.0",
+  "author": {
+    "name": "Steven-Zhl",
+    "email": "Steven-Zhl@outlook.com"
+  },
+  "homepage": "https://github.com/Steven-Zhl/use-skills",
+  "repository": "https://github.com/Steven-Zhl/use-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills"
+  ],
+  "skills": [
+    "./skills/weekly-report",
+    "./skills/system-to-skill"
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "name": "use-skills",
+  "name": "my-personal-skills",
   "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）、find-information（信息浏览）与 weekly-report（Git 变更转工作周报）。",
+  "version": "1.0.0",
   "author": {
     "name": "Steven-Zhl",
     "email": "Steven-Zhl@outlook.com"
@@ -9,14 +10,10 @@
   "repository": "https://github.com/Steven-Zhl/use-skills",
   "license": "MIT",
   "keywords": [
-    "skills",
-    "as-doctor",
-    "find-information",
-    "weekly-report"
+    "skills"
   ],
   "skills": [
     "./skills/as-doctor",
-    "./skills/find-information",
-    "./skills/weekly-report"
+    "./skills/find-information"
   ]
 }

@@ -1,23 +1,29 @@
 {
   "name": "use-skills",
   "owner": {
-    "name": "Steven-Zhl",
-    "email": "Steven-Zhl@outlook.com"
+    "name": "Steven-Zhl"
   },
   "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）、find-information（信息浏览）与 weekly-report（Git 变更转工作周报）。",
   "plugins": [
     {
-      "name": "use-skills",
-      "source": "./",
-      "description": "as-doctor（疾病问诊）、find-information（信息浏览）与 weekly-report（Git 变更转周报）三个 skills。",
+      "name": "my-personal-skills",
+      "source": "./plugins/my-personal-skills",
+      "description": "我的个人Skills",
       "category": "productivity",
       "keywords": [
         "skills",
-        "as-doctor",
-        "find-information",
-        "weekly-report",
         "health",
         "information"
+      ]
+    },
+    {
+      "name": "my-work-skills",
+      "source": "./plugins/my-work-skills",
+      "description": "我的工作Skills",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "weekly-report"
       ]
     }
   ]
