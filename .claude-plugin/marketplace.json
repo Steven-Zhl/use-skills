@@ -3,17 +3,19 @@
   "owner": {
     "name": "Steven-Zhl"
   },
-  "description": "我的个人 Claude Code skills：as-doctor（疾病/症状问诊）、find-information（信息浏览）与 weekly-report（Git 变更转工作周报）。",
+  "description": "我的个人与工作用 Claude Code skills：疾病/症状问诊、信息浏览、清晰表达、工作周报和内部系统转技能。",
   "plugins": [
     {
       "name": "my-personal-skills",
       "source": "./plugins/my-personal-skills",
-      "description": "我的个人Skills",
+      "description": "个人用途技能：疾病/症状问诊、信息浏览和清晰表达。",
       "category": "productivity",
       "keywords": [
         "skills",
         "health",
-        "information"
+        "information",
+        "communication",
+        "writing"
       ]
     },
     {
